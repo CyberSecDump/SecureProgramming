@@ -19,7 +19,8 @@ The intended use of the service is to provide a user access to their own shell o
 
 The monolithic implementation, by necessity, runs as root. As our vulnerability allows the attacker to execute arbitrary code, 
 those root privileges are immediately exposed. Naturally, the severity of a vulnerability that immediately grants root privilege is 
-extremely high. (Figure AI.1). 
+extremely high. (Figure AI.1).
+
 
 # Monitor-slave implementation
 
